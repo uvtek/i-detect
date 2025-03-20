@@ -1,3 +1,5 @@
+test1
+
 INFERENCE SERVER CONTAINER
 
 docker run --gpus=1 --rm --net=host -v /home/nvidia/Documents/Argemtek_AGX/triton_inference_server/model_repository:/models nvcr.io/nvidia/tritonserver:24.06-py3-igpu tritonserver --model-repository=/models
